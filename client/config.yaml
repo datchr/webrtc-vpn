@@ -1,0 +1,17 @@
+server:
+  url: "wss://192.168.3.41:8443/connect"
+  server_name: "vpn.example.com"
+  skip_verify_tls: true  # Set to false in production with proper certificates
+  psk: "changeme"
+
+tun:
+  name: "vpn0"
+
+crypto:
+  encryption_key: "" # Generate with: go run ../shared -genkey
+
+obfuscation:
+  enabled: true
+  padding_enabled: true
+  max_padding_bytes: 512
+  timing_jitter_ms: 50
