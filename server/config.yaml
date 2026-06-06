@@ -1,0 +1,22 @@
+server:
+  addr: "0.0.0.0:8443"
+  cert_file: "./certs/server.crt"
+  key_file: "./certs/server.key"
+
+tun:
+  name: "vpn0"
+
+ip_pool:
+  start: "10.0.0.1"
+  size: 254
+  gateway: "10.0.0.1"
+
+crypto:
+  encryption_key: "" # Generate with: go run main.go -genkey
+  psk: "changeme"
+
+obfuscation:
+  enabled: true
+  padding_enabled: true
+  max_padding_bytes: 512
+  timing_jitter_ms: 50
