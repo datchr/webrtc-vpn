@@ -1,0 +1,17 @@
+.gitignore
+*.exe
+*.dll
+*.so
+*.a
+vpn-client.log
+vpn-server.log
+.idea/
+.vscode/
+bin/
+dist/
+certs/
+*.pem
+*.crt
+*.key
+config.yaml
+!example-config.yaml

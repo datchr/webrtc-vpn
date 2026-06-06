@@ -1,0 +1,17 @@
+server/main.go
+server/signaling.go
+server/tunnel.go
+server/peers.go
+server/obfuscation.go
+server/config.yaml
+
+client/main.go
+client/webrtc.go
+client/signaling.go
+client/tuntap.go
+client/obfuscation.go
+client/config.yaml
+
+shared/types.go
+shared/crypto.go
+shared/constants.go
