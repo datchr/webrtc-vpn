@@ -7,9 +7,9 @@ require (
 	github.com/songgao/water v0.0.0-20200317203138-08b850ebbb53
 	github.com/golang/glog v1.2.0
 	github.com/google/uuid v1.6.0
+	github.com/gorilla/websocket v1.5.0
 	golang.zx2c4.com/wireguard v0.0.0-20240624144222-92341d970b60
 	gopkg.in/yaml.v3 v3.0.1
-	crypto v0.0.0-00010101000000-000000000000
 )
 
 require (
@@ -34,5 +34,3 @@ require (
 	golang.org/x/sys v0.41.0 // indirect
 	golang.org/x/time v0.14.0 // indirect
 )
-
-replace crypto => ./shared
